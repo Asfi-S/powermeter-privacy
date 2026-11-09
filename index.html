@@ -1,76 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="uk">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Eye of Meter Privacy Policy</title>
-
-<style>
-body{
-    font-family:Arial,Helvetica,sans-serif;
-    max-width:900px;
-    margin:auto;
-    padding:40px;
-    line-height:1.7;
-    background:#fafafa;
-    color:#222;
-}
-h1,h2{
-    color:#1565C0;
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Політика конфіденційності / Privacy Policy — Помічник Інспектора</title>
+  <style>
+    body { margin: 0; background: #f7f9fc; color: #17253a; font: 1rem/1.65 system-ui, sans-serif; }
+    main { max-width: 48rem; margin: auto; padding: 2.5rem clamp(1.25rem, 5vw, 3rem); }
+    h1, h2, h3 { line-height: 1.25; }
+    a { color: #1456a0; overflow-wrap: anywhere; }
+    code { overflow-wrap: anywhere; }
+    section + section { border-top: 1px solid #c8d3e1; margin-top: 3rem; padding-top: 1.5rem; }
+  </style>
 </head>
-
 <body>
+<main>
+  <nav aria-label="Мова / Language"><a href="#uk">Українська</a> · <a href="#en" lang="en">English</a></nav>
+  <section id="uk" aria-labelledby="title-uk">
+    <h1 id="title-uk">Політика конфіденційності «Помічник Інспектора»</h1>
+    <p>Оновлено <time datetime="2026-11-09">9 листопада 2026 року</time>.</p>
+    <p>Ця політика стосується Android-застосунку <strong>Помічник Інспектора</strong> (<code>ua.asfinia.powermeter</code>). Розробник — <strong>Vitalii Vasiurenko</strong>, ім’я розробника в Google Play — <strong>Asfinian Studio</strong>. З питань конфіденційності пишіть на <a href="mailto:asfinian.studio@gmail.com">asfinian.studio@gmail.com</a>.</p>
 
-<h1>Privacy Policy</h1>
+    <h2>Які дані обробляє застосунок</h2>
+    <ul>
+      <li><strong>Камера і вимірювання.</strong> З вашого дозволу застосунок використовує камеру для розпізнавання світлових імпульсів лічильника й розрахунку потужності. Кадри обробляються на телефоні. Версія з Google Play не зберігає їх як фото чи відео і не завантажує на сервер. Історія вимірювань може містити час, результати, параметри та введені вами назви й коментарі.</li>
+      <li><strong>PUSH-монітор.</strong> Коли ви запускаєте приймач, він показує IPv4-адреси телефона та приймає UDP-пакети на вибраному порту, зокрема у фоновому режимі. На телефоні зберігаються сирі пакети, адреса й порт відправника та час отримання. Пакети можуть містити номер лічильника, його час, код події та показники напруги. Ці відомості використовуються для розшифровки, журналу та системних сповіщень Android, якщо сповіщення дозволено.</li>
+      <li><strong>Налаштування.</strong> Параметри вимірювання, UDP-порт і пороги напруги зберігаються на телефоні.</li>
+    </ul>
 
-<p>Last updated: July 27, 2026</p>
+    <h2>Передавання та захист даних</h2>
+    <p>Застосунок не надсилає історію вимірювань, PUSH-пакети чи налаштування розробнику або на сервер. У застосунку немає облікових записів, реклами та сторонньої аналітики.</p>
+    <p>За вашою дією можна експортувати PUSH-журнал у JSON до вибраного сховища або скопіювати подробиці події в буфер обміну. Обране сховище може бути хмарним. Видимість системних сповіщень, зокрема на заблокованому екрані, залежить від налаштувань Android.</p>
+    <p>Налаштування та історія зберігаються в приватному сховищі застосунку Android. Приймач використовує UDP і не додає шифрування до мережевого обміну з лічильником.</p>
 
-<p>
-Eye of Meter respects your privacy.
-This application does not collect, store, or share your personal information.
-</p>
+    <h2>Зберігання та видалення</h2>
+    <p>Застосунок зберігає до 50 останніх вимірювань і до 200 PUSH-пакетів у межах 2 МіБ. Старі записи витісняються, коли досягнуто ліміту. Кожен журнал можна очистити у відповідному розділі. Очищення даних застосунку в Android або видалення застосунку прибирає його локальні налаштування та історію. Експортовані файли видаляються окремо з місця збереження.</p>
+    <p>Якщо ви пишете розробнику, ваша електронна адреса і вміст листа використовуються для відповіді та зберігаються стільки, скільки потрібно для опрацювання звернення. За тією самою адресою можна звернутися щодо видалення листування.</p>
+  </section>
 
-<h2>Camera Permission</h2>
+  <section id="en" lang="en" aria-labelledby="title-en">
+    <h2 id="title-en">Privacy Policy for Помічник Інспектора</h2>
+    <p>Updated <time datetime="2026-11-09">November 9, 2026</time>.</p>
+    <p>This policy applies to the Android app <strong>Помічник Інспектора</strong> (<code>ua.asfinia.powermeter</code>). The app is developed by <strong>Vitalii Vasiurenko</strong>, listed as <strong>Asfinian Studio</strong> on Google Play. Privacy contact: <a href="mailto:asfinian.studio@gmail.com">asfinian.studio@gmail.com</a>.</p>
 
-<p>
-The application uses your device camera only to detect LED pulses on electricity meters for power measurement.
-Camera images are processed locally on your device and are never uploaded to any server.
-</p>
+    <h3>Data the app processes</h3>
+    <ul>
+      <li><strong>Camera and measurements.</strong> With your permission, the app uses the camera to detect electricity-meter LED pulses and calculate power. Camera frames are processed on your device. The Google Play release does not save them as photos or videos or upload them to a server. Measurement history can contain timestamps, results, settings, and titles and comments you enter.</li>
+      <li><strong>PUSH monitor.</strong> When started, the listener displays your device's IPv4 addresses and receives UDP packets on the selected port, including in the background. It stores raw packets, sender addresses and ports, and receipt times on your device. Packets can contain a meter serial number, meter time, event code, and voltage readings. The app uses these data for decoding, its event log, and Android notifications when permitted.</li>
+      <li><strong>Settings.</strong> Measurement parameters, the UDP port and voltage limits are stored on your device.</li>
+    </ul>
 
-<h2>Data Collection</h2>
+    <h3>Sharing and security</h3>
+    <p>The app does not send your measurement history, PUSH packets, or settings to the developer or to a server. It has no user accounts, advertising, or third-party analytics.</p>
+    <p>You can choose to export the PUSH log as JSON to a storage provider, including cloud storage, or copy event details to your clipboard. Android settings control the visibility of system notifications, including on the lock screen.</p>
+    <p>Settings and history are kept in Android app-private storage. The listener uses UDP and does not add encryption to the network exchange with the meter.</p>
 
-<p>
-The application does not collect:
-</p>
-
-<ul>
-<li>Personal information</li>
-<li>Location data</li>
-<li>Contacts</li>
-<li>Photos or videos</li>
-<li>Usage analytics</li>
-</ul>
-
-<h2>Local Storage</h2>
-
-<p>
-The application stores only your settings (such as meter constant and measurement duration) locally on your device.
-These settings never leave your phone.
-</p>
-
-<h2>Third-Party Services</h2>
-
-<p>
-This application does not use third-party analytics or advertising services.
-</p>
-
-<h2>Contact</h2>
-
-<p>
-If you have any questions about this Privacy Policy, please contact the developer.
-</p>
-
+    <h3>Retention and deletion</h3>
+    <p>The app keeps up to 50 recent measurements and up to 200 PUSH packets within 2 MiB. Older records are removed as the limits are reached. You can clear either history from its screen. Clearing app data in Android or uninstalling the app removes its local settings and histories. Exported files can be deleted separately from their storage location.</p>
+    <p>If you email the developer, your email address and the contents of your message are used to respond and retained as needed to handle the inquiry. You can use the same address to request deletion of that correspondence.</p>
+  </section>
+</main>
 </body>
 </html>
